@@ -1,0 +1,41 @@
+.button-container {
+  position: fixed;
+  right: 26rpx;
+  bottom: 26rpx;
+}
+
+.button-container > button {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx #ddd;
+}
+
+.button-container > button.show {
+  display: flex;
+}
+
+.add-btn {
+  background: #03dac5;
+}
+
+.delete-btn {
+  margin-top: 26rpx;
+  background: orange;
+}
+
+.undo-btn {
+  background: #fe8bc1;
+}
+
+button.button-hover {
+  opacity: 0.85;
+}
+
+.at-icon {
+  margin-top: 22rpx;
+}

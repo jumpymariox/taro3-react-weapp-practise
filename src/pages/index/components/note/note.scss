@@ -1,0 +1,61 @@
+.note {
+  position: relative;
+  box-sizing: border-box;
+  margin: 23rpx 16rpx;
+  padding: 16rpx;
+  width: 218rpx;
+  height: 300rpx;
+  border: 1px solid #ddd;
+}
+
+.select-checkbox {
+  display: none;
+  position: absolute;
+  right: -15rpx;
+  top: -17rpx;
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.select-checkbox.show {
+  display: block;
+}
+
+.select-checkbox.select-checkbox-hover {
+  opacity: 0.85;
+}
+
+.select-checkbox.selected {
+  background-color: #03dac5;
+}
+
+.delete-checkbox-mp-icon {
+  position: absolute;
+  top: -17rpx;
+  right: 5rpx;
+}
+
+.container {
+  display: -webkit-box;
+  word-break: break-all;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  display: -webkit-box;
+  font-weight: 600;
+  font-size: 36rpx;
+  color: #666;
+  overflow: hidden;
+  text-align: right;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.text {
+  font-size: 21rpx;
+}

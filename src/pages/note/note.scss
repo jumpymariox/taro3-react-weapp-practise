@@ -1,0 +1,70 @@
+.container {
+  position: absolute;
+  top: 20rpx;
+  bottom: 20rpx;
+  left: 20rpx;
+  right: 20rpx;
+  box-shadow: 0 1rpx 2rpx 4rpx #ddd;
+}
+
+.note-form {
+  display: block;
+  height: 100%;
+}
+
+.note-cells {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.note-input-cell {
+  height: 100rpx;
+}
+
+.note-input-cell>.note-input {
+  padding: 0 20rpx;
+  height: 100%;
+  font-size: 50rpx;
+}
+
+.note-editor-cell {
+  height: calc(100% - 100rpx);
+}
+
+.note-editor-cell>.note-editor {
+  height: 100%;
+}
+
+.button-container {
+  position: fixed;
+  right: 40rpx;
+  bottom: 60rpx;
+}
+
+.button-container>button {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx #ddd;
+}
+
+.button-container>button.show {
+  display: flex;
+}
+
+.save-btn {
+  background: #03dac5;
+}
+
+.at-icon-check {
+  margin-top: 22px;
+}
+
+.weui-icon {
+  margin-top: 24rpx;
+}
